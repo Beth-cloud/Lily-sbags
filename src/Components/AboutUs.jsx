@@ -17,7 +17,7 @@ const AboutUs = () => {
         <section className="reviews">
           <h2>Customer Reviews</h2>
           <div className="review">
-            <p>"Amazing products and fast delivery!" 
+            <p>"Amazing products and fast delivery!!!" 
                 <br /> <strong>John D.</strong></p>
           </div>
           <div className="review">
