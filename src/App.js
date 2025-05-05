@@ -7,6 +7,7 @@ import AddProduct from './Components/AddProduct';
 import GetProducts from './Components/GetProducts';
 import "bootstrap/dist/js/bootstrap.min.js";
 import SingleProduct from './Components/SingleProduct';
+import Cart from './Components/Cart';
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
      <Route path="/addproduct" element={<AddProduct/>}></Route>
      <Route path="/" element={<GetProducts/>}></Route>
      <Route path="/singleproduct" element={<SingleProduct/>}></Route>
+     <Route path="/cart" element={<Cart/>}></Route>
+
 
     </Routes>
      </div>
