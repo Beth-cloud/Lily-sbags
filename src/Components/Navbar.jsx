@@ -54,9 +54,12 @@ const Navbar = () => {
                     Register
                   </Link>
 
-                  <Link to="/cart" class="nav-link">
+                   <Link to="/cart" class="nav-link" ><i class="bi bi-cart"></i>
+                  <button><i class="bi bi-cart"></i></button>
                     Cart
                   </Link>
+                </div>
+
                 </div>
               )}
             </div>
