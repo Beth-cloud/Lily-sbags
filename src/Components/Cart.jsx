@@ -1,64 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import 'bootstrap-icons/font/bootstrap-icons.css';
  
-const LilyBags = () => {
-  // Sample product data
-  const products = [
-    {
-      id: 1,
-      name: 'Elegant Evening Clutch',
-      price: 89.99,
-      description: 'Perfect for special occasions with pearl detailing',
-      image: 'https://images.unsplash.com/photo-1591047139829-d91aecb6caea',
-      colors: ['black', 'gold', 'silver'],
-      rating: 4.8
-    },
-    {
-      id: 2,
-      name: 'Urban Backpack',
-      price: 129.99,
-      description: 'Water-resistant with laptop compartment and multiple pockets',
-      image: 'https://images.unsplash.com/photo-1553062407-98eeb64c6a62',
-      colors: ['navy', 'gray', 'olive'],
-      rating: 4.6
-    },
-    {
-      id: 3,
-      name: 'Boho Leather Tote',
-      price: 149.99,
-      description: 'Handcrafted genuine leather with intricate stitching',
-      image: 'https://images.unsplash.com/photo-1584917865442-de89df76afd3',
-      colors: ['brown', 'tan', 'camel'],
-      rating: 4.9
-    },
-    {
-      id: 4,
-      name: 'Mini Crossbody',
-      price: 65.99,
-      description: 'Compact yet spacious with adjustable strap',
-      image: 'https://images.unsplash.com/photo-1590874103328-eac38a683ce7',
-      colors: ['red', 'pink', 'beige'],
-      rating: 4.7
-    },
-    {
-      id: 5,
-      name: 'Designer Satchel',
-      price: 199.99,
-      description: 'Luxury Italian leather with gold hardware',
-      image: 'https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d',
-      colors: ['black', 'burgundy'],
-      rating: 5.0
-    },
-    {
-      id: 6,
-      name: 'Weekender Duffle',
-      price: 159.99,
-      description: 'Spacious travel bag with shoe compartment',
-      image: 'https://images.unsplash.com/photo-1548036328-c9fa89d128fa',
-      colors: ['charcoal', 'navy', 'camel'],
-      rating: 4.5
-    }
-  ];
+const LilyBags = () => { 
  
   const [cart, setCart] = useState([]);
   const [isCartOpen, setIsCartOpen] = useState(false);
@@ -144,10 +87,8 @@ const LilyBags = () => {
             <nav className={`nav ${isMenuOpen ? 'open' : ''}`}>
               <ul>
                 <li><a href=''>Home</a></li>
-                <li><a href=''>Shop</a></li>
-                <li><a href=''>Collections</a></li>
-                <li><a href=''>About</a></li>
-                <li><a href=''>Contact</a></li>
+                <li><a href=''>AboutUs</a></li>
+                <li><a href=''>ContactUS</a></li>
               </ul>
             </nav>
             <div className="header-icons">

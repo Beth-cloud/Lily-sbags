@@ -52,6 +52,7 @@ const AddProduct = () => {
                     <input type="number" className="form-control" placeholder="Enter the product cost" required value={product_cost} onChange={(e)=>setProductCost(e.target.value)}/> <br />
                     <input type="file" ref={fileInputRef} className="form-control" required onChange={(e)=>setProductPhoto(e.target.files[0])}/> <br />
                     <button className="btn btn-primary text-white">Add Product</button>
+                    <button className="add-to-cart">Add to Cart</button>
                     
                 </form>
             </div>
