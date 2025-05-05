@@ -53,15 +53,17 @@ const Navbar = () => {
                   <Link to="/signup" class="nav-link">
                     Register
                   </Link>
+
+                  <Link to="/cart" class="nav-link">
+                    Cart
+                  </Link>
                 </div>
               )}
             </div>
           </div>
         </div>
       </div>
-       <Link id='lop' to="/" class="nav-link">
-                Home
-              </Link>
+      
     </section>
   );
 };
