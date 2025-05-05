@@ -59,6 +59,9 @@ const Navbar = () => {
           </div>
         </div>
       </div>
+       <Link id='lop' to="/" class="nav-link">
+                Home
+              </Link>
     </section>
   );
 };
