@@ -41,12 +41,12 @@ const SignUp = () => {
     
     return ( 
        <div className="lily row justify-content-center mt-5">
-        <div className="col-md-4 card shadow p-4">
+        <div className="col-md-4 card shadow p-4" >
             <b className="text-warning">{loading}</b>
             <b className="text-success">{success}</b>
             <b className="text-danger">{error}</b>
             <h2>Sign Up</h2>
-        <form onSubmit={submitForm} >
+        <form onSubmit={submitForm} b>
             <input type="text" className="form-control" placeholder="Enter your username" required value={username} onChange={(e)=>setUsername(e.target.value)}/> <br />
             <input type="email" className="form-control" placeholder="Enter your email" required value={email} onChange={(e)=>setEmail(e.target.value)}/> <br />
             <input type="tel" className="form-control" placeholder="Enter your phone number" required value={phone} onChange={(e)=>setPhone(e.target.value)}/> <br />
